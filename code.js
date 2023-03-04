@@ -27,3 +27,4 @@ function sortUniqueNumberedList(numberedList) {
 
 // Check to see if the sorting function works
 console.log(sortUniqueNumberedList([45, 28, 39, 60, 85, 93, 24, 45, 60, 85, 24]))
+console.log(sortUniqueNumberedList(['54', '82', '93', '6', '58', '39', '42', '54', '6', '58', '42']))
