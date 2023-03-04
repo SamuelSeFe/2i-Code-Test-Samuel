@@ -1,3 +1,4 @@
+// Initial assumption that the data type will be integers however, this method also works for stringified integers without a need to convert them to integer values
 // Create a function that sorts a numbered list in descending order
 // Note that for names of variables and functions we followe the lower Camel Case naming convention
 
@@ -28,3 +29,6 @@ function sortUniqueNumberedList(numberedList) {
 // Check to see if the sorting function works
 console.log(sortUniqueNumberedList([45, 28, 39, 60, 85, 93, 24, 45, 60, 85, 24]))
 console.log(sortUniqueNumberedList(['54', '82', '93', '6', '58', '39', '42', '54', '6', '58', '42']))
+
+// Note: with more time I would have followed a Testing Driven Development and used a testing framework such as Mocha to write tests using the assert.strictEqual() function rather than using console.log
+// console.log can be useful when writting code but it can lead to clutter and it is best to separate the testing files with files that contain functioning code
